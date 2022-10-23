@@ -4,7 +4,7 @@ from matrix import Matrix
 
 class GameOfLife:
     def __init__(self):
-        self.matrix = Matrix(50, 50)
+        self.matrix = Matrix(20, 20)
         self.seed = self.matrix.generateLife()
         self.window = Window(self.matrix)
 
